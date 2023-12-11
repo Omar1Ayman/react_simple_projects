@@ -1,0 +1,120 @@
+.bank-account {
+  .title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-transform: capitalize;
+  }
+  padding: 15px 0;
+  height: 100vh;
+  .bank-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    .form {
+      border-radius: 10px;
+      padding: 10px 20px 50px;
+      width: 50%;
+      background: #0007;
+      h1 {
+        margin: 10px 0 20px 0;
+        letter-spacing: 3px;
+      }
+      input {
+        border: none;
+        font-weight: bold;
+        outline: none;
+        text-align: center;
+        margin-top: 15px;
+        background: transparent;
+        box-shadow: 0 0 1px 0px #eee;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        color: #ddd;
+      }
+      .login {
+        background: transparent;
+        box-shadow: 0 0 1px 0px #eee;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        border: none;
+        margin: 20px 0;
+        cursor: pointer;
+        color: #ddd;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .login:hover {
+        color: #ddd;
+
+        opacity: 0.5;
+      }
+    }
+  }
+  .user-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+    text-transform: capitalize;
+    tr {
+      padding: 10px;
+      font-size: 20px;
+      td {
+        border-bottom: 1px solid #dddddd;
+        text-align: left;
+        padding: 15px 5px;
+      }
+    }
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 10px 0 100px 0;
+
+    .form-control {
+      width: 25%;
+      animation: FadeLeft 1s ease-in-out;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+
+      label {
+        font-size: large;
+      }
+      input {
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        width: 100%;
+        margin: 0px 0 10px 0;
+      }
+      input[type="button"] {
+        cursor: pointer;
+      }
+      input[type="button"]:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .error {
+    display: flex;
+    justify-content: center;
+    h1 {
+      width: 50%;
+      background-color: #0007;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      text-transform: capitalize;
+    }
+  }
+}

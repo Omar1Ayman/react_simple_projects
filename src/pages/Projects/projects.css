@@ -1,0 +1,81 @@
+.projects {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px #dbc5c5;
+    letter-spacing: 5px;
+    animation: FadeDown 1.5s ease-in-out;
+  }
+  .row {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+    .col {
+      background-color: #d8c7c7;
+      border-radius: 10px;
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      color: #333;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+      h1 {
+        transition: all 0.5s ease-in-out;
+        animation: Zoom 1s ease-in-out;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        text-transform: capitalize;
+        text-wrap: nowrap;
+      }
+      p {
+        font-size: larger;
+        color: #333;
+        animation: FadeDown 1s ease-in-out;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+      }
+      a {
+        color: blueviolet;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+    .col:hover a {
+      transform: scale(2);
+    }
+    .col:hover {
+      transform: translate(5px, -5px);
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .projects .title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects .title {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+/* NotFound.css */
+.not-found {
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 50px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 25px;
+    color: #b6bbc0; /* Dark blue color for the text */
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: #3498db; /* Blue color for the link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

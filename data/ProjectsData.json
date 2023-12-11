@@ -1,0 +1,18 @@
+{
+  "Bank_users": [
+    {
+      "id": 1,
+      "name": "omar",
+      "card_number": "1",
+      "balance": -30,
+      "loan": 5000
+    },
+    {
+      "id": 2,
+      "name": "ahmed",
+      "card_number": "123665825",
+      "balance": 0,
+      "loan": 0
+    }
+  ]
+}
