@@ -79,13 +79,26 @@
     align-items: start;
     gap: 10px;
     padding: 10px 0 100px 0;
-
-    .form-control {
-      width: 25%;
+    .btn {
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      width: 100%;
+      margin: 0px 0 10px 0;
+      cursor: pointer;
+    }
+    .btn:hover {
+      opacity: 0.8;
+    }
+    .transactions {
+      width: 50%;
       animation: FadeLeft 1s ease-in-out;
       animation-iteration-count: 1;
       animation-timing-function: linear;
-
+    }
+    .form-control {
+      width: 50%;
       label {
         font-size: large;
       }

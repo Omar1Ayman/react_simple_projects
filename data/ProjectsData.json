@@ -4,8 +4,8 @@
       "id": 1,
       "name": "omar",
       "card_number": "1",
-      "balance": -30,
-      "loan": 5000
+      "balance": 2100,
+      "loan": 0
     },
     {
       "id": 2,
